@@ -17,5 +17,6 @@ public class Main {
             }
         } while (x < 200&&x > 100|| x % 3 != 0);
         scan.close();
+        System.out.println("Podałeś poprawną liczbę");
     }
 }
