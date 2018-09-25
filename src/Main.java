@@ -15,7 +15,7 @@ public class Main {
             } else if (x % 3 != 0) {
                 System.out.println("Liczba nie jest podzielna przez 3");
             }
-        } while (x < 200&&x > 100|| x % 3 != 0);
+        } while (x > 200 || x < 100 || x % 3 != 0);
         scan.close();
         System.out.println("Podałeś poprawną liczbę");
     }
